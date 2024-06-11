@@ -7,12 +7,9 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/ancap.tattoo/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/bibhu-p',
+  linkedin: 'https://www.linkedin.com/in/bibhu-prasad-behera-428b24224',
+  mail: 'mailto:bibhu.prasad.7.dev@gmail.com',
 }
 
 // Global
