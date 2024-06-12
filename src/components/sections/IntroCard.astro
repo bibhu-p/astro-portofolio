@@ -1,7 +1,7 @@
 ---
 import Card from '../Card.astro'
 import { Button } from '../ui/button'
-import { LINKS } from '../../lib/constants'
+import { INTRO, LINKS } from '../../lib/constants'
 import { Linkedin, Github, Mail } from 'lucide-react'
 ---
 
@@ -11,8 +11,7 @@ import { Linkedin, Github, Mail } from 'lucide-react'
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">welcome</h6>
         <p class="m-0 text-xl font-light">
-          Hi, I'm <b class="font-bold">Bibhu Prasad</b>, a full stack software
-          developer with a keen eye for creating fully responsive and user-centric web applications and mobile apps. With a solid foundation in both front-end and back-end technologies, I bring a holistic approach to development that ensures seamless user experiences and robust functionality.
+          Hi, I'm <b class="font-bold">{INTRO.name}</b>,<br/> {INTRO.description}
         </p>
       </div>
       <div class="flex gap-4">
