@@ -19,7 +19,7 @@ export const INTRO = {
 export const EXPERIENCE = [
   {
     company: 'Hyscaler',
-    location: 'Bogotá D C, Colombia',
+    location: 'Bhubaneswar, Odisha, India',
     position: 'Software Development Engineer - I ',
     start: '2022',
     link: 'https://hyscaler.com/',
