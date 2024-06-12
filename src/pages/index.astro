@@ -8,6 +8,7 @@ import ContactsCard from '../components/sections/ContactsCard.astro'
 import Now from '../components/sections/Now.astro'
 import CVCard from '../components/sections/CVCard.astro'
 import ExperienceCard from '../components/sections/ExperienceCard.astro'
+import QuoteCard from '../components/sections/QuoteCard.astro'
 ---
 
 <script>
@@ -58,37 +59,6 @@ import ExperienceCard from '../components/sections/ExperienceCard.astro'
     <TimeZoneCard />
     <ContactsCard />
     <ExperienceCard />
-    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <div class="flex h-full flex-col justify-between">
-        <blockquote class="mt-6 border-l-2 pl-6 italic">
-          “It’s not a bug; it’s an undocumented feature.”
-        </blockquote>
-        <p class="mt-2 text-xs">- Anonymous</p>
-      </div>
-    </Card>
-    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <div class="flex h-full flex-col justify-between">
-        <blockquote class="mt-6 border-l-2 pl-6 italic">
-          “Don't fix it if it ain't broke.”
-        </blockquote>
-        <p class="mt-2 text-xs">- Anonymous</p>
-      </div>
-    </Card>
-    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <div class="flex h-full flex-col justify-between">
-        <blockquote class="mt-6 border-l-2 pl-6 italic">
-          “A computer program does what you tell it to do, not what you want it to do.”
-        </blockquote>
-        <p class="mt-2 text-xs">- Anonymous</p>
-      </div>
-    </Card>
-    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <div class="flex h-full flex-col justify-between">
-        <blockquote class="mt-6 border-l-2 pl-6 italic">
-          “Deliver yesterday, code today, think tomorrow.”
-        </blockquote>
-        <p class="mt-2 text-xs">- Anonymous</p>
-      </div>
-    </Card>
+    <QuoteCard />
   </main>
 </BaseLayout>
