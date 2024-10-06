@@ -6,7 +6,7 @@ export const loaderAnimation = [
 
 export const LINKS = {
   github: 'https://github.com/bibhu-p',
-  linkedin: 'https://www.linkedin.com/in/bibhu-prasad-behera-428b24224',
+  linkedin: 'https://www.linkedin.com/in/bibhu-prasad-behera-428b24224/',
   mail: 'mailto:bibhu.prasad.7.dev@gmail.com',
 }
 
