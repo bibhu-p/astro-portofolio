@@ -8,7 +8,7 @@ If you want to learn more about `Astro.js`, check out the official site of Astro
 
 ## 🚀 Live Demo
 
-Check out the live version of this portfolio [here](https://astro-portofolio-rouge.vercel.app).
+Check out the live version of this portfolio [here](https://astro-port-v1.netlify.app).
 
 You can also check out the live version of my original version portfolio [here](https://bibhu-prasad.netlify.app).
 
